@@ -3457,3 +3457,258 @@ Started GET "/assets/application-c09a0b9d8ff68faa08daefc79352b866.js?body=1" for
 
 
 Started GET "/assets/rails-be2e3e66a18126c4042f84cd4aae4cb3.png" for 127.0.0.1 at 2015-02-12 21:03:08 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:09:40 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 168ms
+
+ActionView::MissingTemplate (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates"
+  * "/home/chase/Coding/Rails/Rails_Tutorial/hello_app/app/views"
+  * "/home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/app/views"
+):
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1218629003485136320_70032579166680'
+
+
+  Rendered /home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:09:53 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 280ms
+
+ActionView::MissingTemplate (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates"
+  * "/home/chase/Coding/Rails/Rails_Tutorial/hello_app/app/views"
+  * "/home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/app/views"
+):
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1218629003485136320_41380280'
+
+
+  Rendered /home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:11:00 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 269ms
+
+ActionView::MissingTemplate (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates"
+  * "/home/chase/Coding/Rails/Rails_Tutorial/hello_app/app/views"
+  * "/home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/app/views"
+):
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1218629003485136320_70032580350480'
+
+
+  Rendered /home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:11:05 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 259ms
+
+ActionView::MissingTemplate (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates"
+  * "/home/chase/Coding/Rails/Rails_Tutorial/hello_app/app/views"
+  * "/home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/app/views"
+):
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__1218629003485136320_70032591116480'
+
+
+  Rendered /home/chase/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 237ms (Views: 236.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/scaffolds-c0b0955fad40768221b7592b88f9a799.css?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/turbolinks-f3db13228104e434f3d562734c3bd677.js?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/microposts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/application-c09a0b9d8ff68faa08daefc79352b866.js?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/rails-be2e3e66a18126c4042f84cd4aae4cb3.png" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/custom-6c2c1c1ba1d64dae451ae0b43a55cdcb.css?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/assets/application-e3a7c17d17a4376ac8244f0dc0747985.css?body=1" for 127.0.0.1 at 2015-02-12 21:13:44 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:13:49 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 139ms (Views: 138.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:13:51 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 150ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:13:52 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 139ms (Views: 138.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:13:52 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 150ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:16:09 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 664ms (Views: 659.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-6c2c1c1ba1d64dae451ae0b43a55cdcb.css?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/scaffolds-c0b0955fad40768221b7592b88f9a799.css?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/application-e3a7c17d17a4376ac8244f0dc0747985.css?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/turbolinks-f3db13228104e434f3d562734c3bd677.js?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/application-c09a0b9d8ff68faa08daefc79352b866.js?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/microposts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/assets/rails-be2e3e66a18126c4042f84cd4aae4cb3.png" for 127.0.0.1 at 2015-02-12 21:16:10 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 21:18:34 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2305ms (Views: 2304.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-cf53f23caf8e8e791bb7d99e8f3c58c0.css?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/scaffolds-c0b0955fad40768221b7592b88f9a799.css?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/turbolinks-f3db13228104e434f3d562734c3bd677.js?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/application-2495dda176d9647eac7a2f5730a0af4a.css?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/microposts-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/application-c09a0b9d8ff68faa08daefc79352b866.js?body=1" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
+
+
+Started GET "/assets/rails-be2e3e66a18126c4042f84cd4aae4cb3.png" for 127.0.0.1 at 2015-02-12 21:18:37 -0800
